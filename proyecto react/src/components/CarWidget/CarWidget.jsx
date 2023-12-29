@@ -1,7 +1,7 @@
 import carritoimg from './assets/carritoimg.png'
 
 const CarWidget = () => {
-    retun (
+    return (
         <div>
             <img src="carritoimg" alt="imagen-carrito" />
             0

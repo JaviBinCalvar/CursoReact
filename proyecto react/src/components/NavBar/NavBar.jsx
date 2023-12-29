@@ -1,4 +1,4 @@
-import classes from './NavBar.modules.css'
+import classes from './NavBar.module.css'
 import CarWidget from '../CarWidget/CarWidget'
 
 const NavBar = () => {
@@ -6,9 +6,9 @@ const NavBar = () => {
         <nav>
             <h1 className={classes.titulo}> Ecommerce Pesca </h1>
             <section>
-                <Button>Moscas</button>
-                <Button>Anzuelos</button>
-                <Button>Plumas</button>
+                <Button>Moscas</Button>
+                <Button>Anzuelos</Button>
+                <Button>Plumas</Button>
             </section>
             <CarWidget />
         </nav>

@@ -19,7 +19,7 @@ const Contador = () => {
             <button onClick={decrece}>resta</button>
         </div>
     )
-
+    }     
 }
 
 
