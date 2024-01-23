@@ -1,7 +1,7 @@
 
 
 
-const [
+const products [
     {
         id:'1',
         name:'woolly bugger',

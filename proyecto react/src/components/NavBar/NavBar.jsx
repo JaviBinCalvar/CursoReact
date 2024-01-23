@@ -1,5 +1,6 @@
 import classes from './NavBar.module.css'
 import CarWidget from '../CarWidget/CarWidget'
+import Button from '../Button/Button'
 
 const NavBar = () => {
     return (
