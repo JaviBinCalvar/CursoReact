@@ -1,11 +1,11 @@
 
 
 
-const products [
+const products = [
     {
         id:'1',
         name:'woolly bugger',
-        price:2000
+        price:2000,
         category:'moscas',
         img:'',
         stock: 20,
@@ -14,7 +14,7 @@ const products [
     {
         id:'2',
         name:'marabu',
-        price:2700
+        price:2700,
         category:'materiales',
         img:'',
         stock: 20,
@@ -23,7 +23,7 @@ const products [
     {
         id:'3',
         name:'Matuka',
-        price:2000
+        price:2000,
         category:'moscas',
         img:'',
         stock: 20,
