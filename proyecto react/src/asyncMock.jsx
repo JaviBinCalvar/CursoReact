@@ -6,7 +6,7 @@ const products = [
         id:'1',
         name:'woolly bugger',
         price:2000,
-        category:'moscas',
+        category:'Moscas',
         img:'',
         stock: 20,
         description:'moscas para pescar en el río',
@@ -15,7 +15,7 @@ const products = [
         id:'2',
         name:'marabu',
         price:2700,
-        category:'materiales',
+        category:'Materiales',
         img:'',
         stock: 20,
         description:'principal material para atado de moscas',
@@ -24,7 +24,7 @@ const products = [
         id:'3',
         name:'Matuka',
         price:2000,
-        category:'moscas',
+        category:'Moscas',
         img:'',
         stock: 20,
         description:'moscas para pescar en el río',
@@ -49,3 +49,10 @@ export const getProductsById = (productId) => {
 
     )
 }
+export const getProductsByCategory = (categoryId) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(products.filter((prod) => prod.category === categoryId));
+        }, 500);
+    });
+};
